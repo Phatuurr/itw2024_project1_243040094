@@ -155,23 +155,24 @@
                 </ul>
             </div>
             <div class="contactform">
-                <form>
+                <form  action="https://formsubmit.co/muhamad.fatur.rahaman@gmail.com" method="POST">
                     <h2>Send Massage</h2>
                     <div class="inputbox">
-                        <input type="text" name="" required="required">
+                        <input type="text" name="name" required="required" placeholder="Name">
                         <span>Full Name</span>
                     </div>
                     <div class="inputbox">
-                        <input type="text" name="" required="required">
+                        <input type="text" name="email" required="required" placeholder="Email">
                         <span>Email</span>
                     </div>
                     <div class="inputbox">
-                        <textarea required="required"></textarea>
+                        <textarea name="msg" required="required" placeholder="Massage"></textarea>
                         <span>Type your massage</span>
                     </div>
                     <div class="inputbox">
                         <input type="submit" value="Send">
                     </div>
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
         </div>
