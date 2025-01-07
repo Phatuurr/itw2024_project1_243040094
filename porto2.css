@@ -334,7 +334,6 @@ html {
     color: #f9f9f9;
     font-size: 22px;
     position: relative;
-    background: repeating-conic-gradient(from var(--a), #f2f239 0%, #f2f239 10%, transparent 10%, transparent 50%);
     animation: animate 6s linear infinite;
     padding: 20px;
     box-sizing: border-box;
@@ -344,7 +343,6 @@ html {
     content: '';
     position: absolute;
     inset: 0;
-    background: repeating-conic-gradient(from var(--a), #f2f239 0%, #f2f239 10%, transparent 10%, transparent 50%);
     animation: animate 6s linear infinite;
     animation-delay: -1.5s;
 }
@@ -824,7 +822,6 @@ html {
     position: relative;
     min-width: 60px;
     height: 60px;
-    background: repeating-conic-gradient(from 27.5deg, #f2f239 0%, #f2f239 10%, transparent 10%, transparent 50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -834,7 +831,6 @@ html {
     content: '';
     position: absolute;
     inset: 0;
-    background: repeating-conic-gradient(from 117.5deg, #f2f239 0%, #f2f239 10%, transparent 10%, transparent 50%);
 }
 
 .container-contact .contactinfo .box .icon::after {
@@ -896,7 +892,6 @@ html {
 .container-contact .contactform {
     position: relative;
     width: 40%;
-    background: repeating-conic-gradient(from var(--a), #f2f239 0%, #f2f239 10%, transparent 10%, transparent 50%);
     animation: animate 6s linear infinite;
     padding: 60px;
 }
@@ -906,7 +901,6 @@ html {
     content: '';
     position: absolute;
     inset: 0;
-    background: repeating-conic-gradient(from var(--a), #f2f239 0%, #f2f239 10%, transparent 10%, transparent 50%);
     animation: animate 6s linear infinite;
     animation-delay: -1.5s;
 }
